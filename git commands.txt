@@ -1,0 +1,22 @@
+$git init //initalize local git repository
+$git add  //Add file to index
+$git status  //check status of working tree
+$git commit   // commit changes in index
+$git push // push to remote repository
+$git pull // latest version
+$git clone
+
+$git init
+$git config --global user.name 'Prashanth'
+$git config --global user.email 'prashanth@gmail.com'
+$git add index.html
+$git status 
+$git rm --cached index.html
+
+
+$git commit
+>> click i to go to insert mode
+escape ;wq
+
+$git add .
+$git commit -m 'Changed app.js'
