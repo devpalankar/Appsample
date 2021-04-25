@@ -20,3 +20,7 @@ escape ;wq
 
 $git add .
 $git commit -m 'Changed app.js'
+$git checkout master
+$git merge login
+
+$git remote add origin https://github.com/devpalankar/Appsample.git
